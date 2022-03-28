@@ -1,1 +1,143 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url(style-second.css);
+@import url(media.css);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bellota Text', cursive;
+  font-weight: 400;
+  font-size: 25px;
+  color: #F5F5F5;
+  background-color: #2E3B49;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.btn__sm {
+  display: block;
+  height: 50px;
+  width: 125px;
+  padding: 10px 20px;
+  border: 2px solid #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 25px;
+  transition: all .3s linear;
+}
+
+.btn__sm:hover {
+  background-color: #F5F5F5;
+  color: #2E3B49;
+}
+
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px 30px;
+}
+
+.header__logo-img {
+  height: 90px;
+}
+
+.header__nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #F5F5F5;
+  margin-right: 40px;
+  transition: all .3s linear;
+}
+
+.header__nav-link:last-child {
+  margin-right: 0;
+}
+
+.header__nav-link--active {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.header__nav-link:hover {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang-switcher {
+  margin-right: 40px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  padding-right: 13px;
+}
+
+.lang-switcher::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 15px;
+  background-image: url(/images/ico/svg/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+.lang-en {
+  display: none;
+  position: absolute;
+  bottom: -40px;
+}
+
+.lang-en--active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

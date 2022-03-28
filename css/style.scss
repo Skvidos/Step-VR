@@ -1,0 +1,155 @@
+// Step VR style.scss file
+
+@import url(style-second.css);
+@import url(media.css);
+
+$black: #080D14;
+$dark-blue: #212E3D;
+$h1: #9DB7D6;
+$white: #F5F5F5;
+
+$bg: #2E3B49;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bellota Text', cursive;
+  //font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: $white;
+  background-color: $bg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.btn__sm {
+  display: block;
+  height: 50px;
+  width: 125px;
+  padding: 10px 20px;
+  border: 2px solid $white;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 25px;
+
+  transition: all .3s linear;
+
+  &:hover {
+    background-color: $white;
+    color: $bg;
+  }
+}
+
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px 30px;
+}
+
+.header__logo-img {
+  height: 90px;
+}
+
+.header__nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: $white;
+  margin-right: 40px;
+
+  transition: all .3s linear;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--active {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  &:hover {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang-switcher {
+  margin-right: 40px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  padding-right: 13px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 15px;
+    background-image: url(/images/ico/svg/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translateY(-50%);
+  }
+}
+
+.lang-en {
+  display: none;
+  position: absolute;
+  bottom: -40px;
+
+  &--active {
+    display: block;
+  }
+}
