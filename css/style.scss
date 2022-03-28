@@ -101,20 +101,19 @@ button:focus {
     height: 100vh;
   }
 
-  &::after {
-    content: "";
-    background-image: url(../images/patterns/Pattern-1.png);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    top: 720px;
-    right: 0;
-    width: 1014px;
-    height: 1368px;
-  }
+}
 
+.pattern-1 {
+  background-image: url(../images/patterns/Pattern-1.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: 720px;
+  right: 0;
+  width: 1014px;
+  height: 1368px;
 }
 
 .header {
@@ -347,20 +346,19 @@ button:focus {
   display: flex;
   align-items: center;
   position: relative;
+}
 
-  &::after {
-    content: "";
-    background-image: url(../images/patterns/Pattern-2.png);
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    top: 415px;
-    left: 0;
-    width: 852px;
-    height: 1479px;
-  }
+.pattern-2 {
+  background-image: url(../images/patterns/Pattern-2.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: 415px;
+  left: 0;
+  width: 852px;
+  height: 1479px;
 }
 
 .about__avatars-inner {

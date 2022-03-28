@@ -89,8 +89,7 @@ button:focus {
   height: 100vh;
 }
 
-.intro::after {
-  content: "";
+.pattern-1 {
   background-image: url(../images/patterns/Pattern-1.png);
   background-position: right;
   background-size: cover;
@@ -327,8 +326,7 @@ button:focus {
   position: relative;
 }
 
-.about__avatars::after {
-  content: "";
+.pattern-2 {
   background-image: url(../images/patterns/Pattern-2.png);
   background-position: left;
   background-size: cover;
