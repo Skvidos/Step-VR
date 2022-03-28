@@ -69,7 +69,7 @@ button:focus {
   position: relative;
   display: flex;
   align-items: center;
-  background-image: url(/images/Background.png);
+  background-image: url(../images/Background.png);
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ button:focus {
 
 .intro::before {
   content: "";
-  background-image: url(/images/illustration/LiquidGirl-2.png);
+  background-image: url(../images/illustration/LiquidGirl-2.png);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ button:focus {
 
 .intro::after {
   content: "";
-  background-image: url(/images/patterns/Pattern-1.png);
+  background-image: url(../images/patterns/Pattern-1.png);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ button:focus {
   display: block;
   width: 7px;
   height: 15px;
-  background-image: url(/images/ico/svg/arrow-down.svg);
+  background-image: url(../images/ico/svg/arrow-down.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
@@ -259,7 +259,7 @@ button:focus {
 }
 
 .btn__arrow-box:hover .btn__arrow::before {
-  background-image: url(/images/ico/svg/arrow-2.svg);
+  background-image: url(../images/ico/svg/arrow-2.svg);
 }
 
 .btn__arrow-box:hover .btn__arrow-2 {
@@ -281,7 +281,7 @@ button:focus {
 
 .btn__arrow::before {
   content: "";
-  background-image: url(/images/ico/svg/arrow.svg);
+  background-image: url(../images/ico/svg/arrow.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
