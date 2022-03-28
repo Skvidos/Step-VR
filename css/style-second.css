@@ -1,0 +1,6 @@
+.btn__arrow--2::before {
+  transform: translate(50%, -40%) rotate(-48deg) !important;
+  top: 37% !important;
+  right: 33px !important;
+}
+/*# sourceMappingURL=style-second.css.map */

@@ -318,4 +318,81 @@ button:focus {
   width: 212px;
   text-align: right;
 }
+
+.about__avatars {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.about__avatars::after {
+  content: "";
+  background-image: url(../images/patterns/Pattern-2.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: 415px;
+  left: 0;
+  width: 852px;
+  height: 1479px;
+}
+
+.about__avatars-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 115px 30px 100px 120px;
+}
+
+.about__avatars-content {
+  width: 680px;
+  margin-right: 60px;
+}
+
+.about__avatars-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 73px;
+  color: #9DB7D6;
+  margin-bottom: 100px;
+}
+
+.about__avatars-title span {
+  color: #F5F5F5;
+}
+
+.about__avatars-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #F5F5F5;
+}
+
+.about__avatars-p {
+  margin-bottom: 30px;
+}
+
+.about__avatars-description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: right;
+  color: #F5F5F5;
+  margin-bottom: 25px;
+}
+
+.about__avatars-img {
+  box-shadow: 1px 20px 25px -10px #212E3D;
+  border-radius: 50px;
+  width: 727px;
+}
+
+.about__avatars-img__box {
+  padding-top: 80px;
+}
 /*# sourceMappingURL=style.css.map */
