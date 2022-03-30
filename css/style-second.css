@@ -17,12 +17,35 @@
   bottom: -195px !important;
 }
 
+.why__content-image-description--third {
+  text-align: right !important;
+  position: absolute !important;
+  right: -80px !important;
+  bottom: 40px !important;
+}
+
+.why__content-image-description--forth {
+  text-align: right !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  left: -520px !important;
+}
+
 .why__content-image__box--second {
   transform: translateX(0px) !important;
   width: 550px !important;
 }
 
+.why__content-image__box--third {
+  transform: translateX(120px) !important;
+  width: 550px !important;
+}
+
 .btn__arrow-box__second {
   right: 42% !important;
+}
+
+.btn__arrow-box__third {
+  right: 50% !important;
 }
 /*# sourceMappingURL=style-second.css.map */
