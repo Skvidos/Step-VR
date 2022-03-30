@@ -3,4 +3,26 @@
   top: 37% !important;
   right: 33px !important;
 }
+
+.why__content--second {
+  order: 1 !important;
+  margin-left: 100px;
+  margin-right: 0 !important;
+}
+
+.why__content-image-description--second {
+  text-align: right !important;
+  position: absolute !important;
+  right: -90px !important;
+  bottom: -195px !important;
+}
+
+.why__content-image__box--second {
+  transform: translateX(0px) !important;
+  width: 550px !important;
+}
+
+.btn__arrow-box__second {
+  right: 42% !important;
+}
 /*# sourceMappingURL=style-second.css.map */
