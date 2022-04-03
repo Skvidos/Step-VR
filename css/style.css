@@ -741,4 +741,79 @@ button:focus {
 .styles__image-box {
   position: relative;
 }
+
+.video {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.video__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 115px 30px 100px 120px;
+}
+
+.video__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 73px;
+  color: #9DB7D6;
+  margin-bottom: 50px;
+}
+
+.video__title span {
+  color: #F5F5F5;
+}
+
+.video__box-inner {
+  position: relative;
+  height: 720px;
+}
+
+.video__box-inner::after {
+  content: "";
+  display: block;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/ico/svg/play-button.svg);
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.video__box {
+  position: absolute;
+  top: 0;
+  left: -90px;
+}
+
+.video__box iframe {
+  box-shadow: 1px 20px 25px -10px #212E3D;
+}
+
+.video__description {
+  position: absolute;
+  right: -50px;
+  bottom: 135px;
+  z-index: 100;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  width: 212px;
+}
+
+.video__description a {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */
