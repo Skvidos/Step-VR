@@ -4,6 +4,11 @@
   right: 33px !important;
 }
 
+.btn__arrow--3::before {
+  top: 50% !important;
+  transform: translate(50%, -50%) rotate(0deg) !important;
+}
+
 .why__content--second {
   order: 1 !important;
   margin-left: 100px;
@@ -51,5 +56,9 @@
 
 .btn__arrow-box__fourth {
   right: 13% !important;
+}
+
+.btn__arrow-box__fifth {
+  right: 40% !important;
 }
 /*# sourceMappingURL=style-second.css.map */

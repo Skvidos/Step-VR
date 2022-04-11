@@ -963,3 +963,134 @@ button:focus {
     color: $bg;
   }
 }
+
+.projects {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.projects__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 73px;
+  color: $h1;
+  margin-bottom: 20px;
+
+  span {
+    color: $white;
+  }
+}
+
+.projects__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: $white;
+  margin-bottom: 40px;
+
+}
+
+.projects__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/ico/svg/project.svg);
+    background-size: contain;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 300px;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+}
+
+.projects__item {
+  width: 350px;
+  height: 467px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  box-shadow: 1px 20px 25px -10px #212E3D;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--1 {
+    background-image: url(../images/projects/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+
+  &--2 {
+    background-image: url(../images/projects/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+
+  &--3 {
+    background-image: url(../images/projects/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+
+  &--4 {
+    background-image: url(../images/projects/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+}
+
+.project__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: $white;
+  margin-bottom: 3px;
+}
+
+.project__author {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: $white;
+  margin-bottom: 24px;
+}
+
+.projects__more {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: $white;
+  margin: 0 auto;
+}
+
+.projects__title-box {
+  margin-left: 200px;
+}
