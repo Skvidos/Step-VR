@@ -6,7 +6,8 @@
 
 .btn__arrow--3::before {
   top: 50% !important;
-  transform: translate(50%, -50%) rotate(0deg) !important;
+  right: 60% !important;
+  transform: translate(50%, -50%) rotate(180deg) !important;
 }
 
 .why__content--second {
@@ -60,5 +61,9 @@
 
 .btn__arrow-box__fifth {
   right: 40% !important;
+}
+
+.btn__arrow-box__sixth {
+  right: 5% !important;
 }
 /*# sourceMappingURL=style-second.css.map */
