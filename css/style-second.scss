@@ -1,3 +1,10 @@
+$black: #080D14;
+$dark-blue: #212E3D;
+$h1: #9DB7D6;
+$white: #F5F5F5;
+
+$bg: #2E3B49;
+
 .btn__arrow--2 {
   &::before {
     transform: translate(50%, -40%) rotate(-48deg) !important;
@@ -69,4 +76,22 @@
 
 .btn__arrow-box__sixth {
   right: 5% !important;
+}
+
+.intro--second {
+  background-image: url(../images/Background-2.png) !important;
+}
+
+.header__nav-link--dark {
+  color: $dark-blue !important;
+}
+
+.lang-switcher--dark {
+  a {
+    color: $dark-blue !important;
+  }
+
+  &::after {
+    background-image: url(../images/ico/svg/arrow-down-dark.svg) !important;
+  }
 }

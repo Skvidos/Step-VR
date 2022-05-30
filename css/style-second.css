@@ -66,4 +66,20 @@
 .btn__arrow-box__sixth {
   right: 5% !important;
 }
+
+.intro--second {
+  background-image: url(../images/Background-2.png) !important;
+}
+
+.header__nav-link--dark {
+  color: #212E3D !important;
+}
+
+.lang-switcher--dark a {
+  color: #212E3D !important;
+}
+
+.lang-switcher--dark::after {
+  background-image: url(../images/ico/svg/arrow-down-dark.svg) !important;
+}
 /*# sourceMappingURL=style-second.css.map */
