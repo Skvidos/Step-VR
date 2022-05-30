@@ -180,6 +180,21 @@ button:focus {
   z-index: -1;
 }
 
+.pattern-7 {
+  background-image: url(../images/patterns/Pattern-7.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: -65px;
+  left: 0;
+  right: 0;
+  width: 1925px;
+  height: 1353px;
+  z-index: 0;
+}
+
 .footer {
   background-image: url(../images/patterns/footer.png);
   background-position: left;

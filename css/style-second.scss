@@ -80,6 +80,13 @@ $bg: #2E3B49;
 
 .intro--second {
   background-image: url(../images/Background-2.png) !important;
+
+  &::before {
+    background-image: url(../images/illustration/two.png) !important;
+    background-position: top !important;
+    position: absolute !important;
+    left: 0 !important;
+  }
 }
 
 .header__nav-link--dark {
@@ -93,5 +100,50 @@ $bg: #2E3B49;
 
   &::after {
     background-image: url(../images/ico/svg/arrow-down-dark.svg) !important;
+  }
+}
+
+.intro__content--second {
+  margin-left: 50% !important;
+  max-width: 750px !important;
+}
+
+.intro__title--dark {
+  color: $dark-blue !important;
+}
+
+.intro__text-p--dark {
+  color: $dark-blue !important;
+}
+
+.intro__inner--second {
+  margin-top: -100px !important;
+}
+
+.btn__arrow--second {
+  background-color: #9DB7D6 !important;
+
+  &::before {
+    background-image: url(../images/ico/svg/arrow-2.svg) !important;
+  }
+}
+
+.btn__arrow-2--second {
+  background-color: #212E3D !important;
+}
+
+.btn__arrow-box {
+  &:hover {
+    .btn__arrow {
+      background-color: $dark-blue !important;
+
+      &::before {
+        background-image: url(../images/ico/svg/arrow.svg) !important;
+      }
+    }
+
+    .btn__arrow-2 {
+      background-color: $h1 !important;
+    }
   }
 }
