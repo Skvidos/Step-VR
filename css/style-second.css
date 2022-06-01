@@ -76,6 +76,7 @@
   background-position: top !important;
   position: absolute !important;
   left: 0 !important;
+  top: 70px !important;
 }
 
 .header__nav-link--dark {
@@ -101,10 +102,12 @@
 
 .intro__text-p--dark {
   color: #212E3D !important;
+  width: 442px !important;
 }
 
 .intro__inner--second {
   margin-top: -100px !important;
+  z-index: 100;
 }
 
 .btn__arrow--second {

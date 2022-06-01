@@ -1,0 +1,14 @@
+@media (min-height: 1400px) {
+  .pattern-7 {
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100vh !important;
+  }
+  .intro__content--second {
+    max-width: 770px !important;
+  }
+  .intro--second::before {
+    top: 0 !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */
