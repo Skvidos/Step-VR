@@ -83,14 +83,6 @@
   color: #212E3D !important;
 }
 
-.lang-switcher--dark a {
-  color: #212E3D !important;
-}
-
-.lang-switcher--dark::after {
-  background-image: url(../images/ico/svg/arrow-down-dark.svg) !important;
-}
-
 .intro__content--second {
   margin-left: 50% !important;
   max-width: 750px !important;
@@ -122,15 +114,15 @@
   background-color: #212E3D !important;
 }
 
-.btn__arrow-box:hover .btn__arrow {
+.btn__arrow-fourth:hover .btn__arrow {
   background-color: #212E3D !important;
 }
 
-.btn__arrow-box:hover .btn__arrow::before {
+.btn__arrow-fourth:hover .btn__arrow::before {
   background-image: url(../images/ico/svg/arrow.svg) !important;
 }
 
-.btn__arrow-box:hover .btn__arrow-2 {
+.btn__arrow-fourth:hover .btn__arrow-2 {
   background-color: #9DB7D6 !important;
 }
 /*# sourceMappingURL=style-second.css.map */

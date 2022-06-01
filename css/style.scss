@@ -284,7 +284,10 @@ button:focus {
   font-size: 25px;
   line-height: 30px;
   padding-right: 13px;
-  color: $white;
+
+  a {
+    color: $white;
+  }
 
   &::after {
     content: "";
@@ -301,6 +304,36 @@ button:focus {
     transform: translateY(-50%);
   }
 }
+
+.lang-switcher--dark {
+  margin-right: 40px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  padding-right: 13px;
+
+  a {
+    color: $dark-blue;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 15px;
+    background-image: url(../images/ico/svg/arrow-down-dark.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translateY(-50%);
+  }
+}
+
 
 .lang-en {
   display: none;

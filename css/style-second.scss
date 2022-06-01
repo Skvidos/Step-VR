@@ -94,16 +94,6 @@ $bg: #2E3B49;
   color: $dark-blue !important;
 }
 
-.lang-switcher--dark {
-  a {
-    color: $dark-blue !important;
-  }
-
-  &::after {
-    background-image: url(../images/ico/svg/arrow-down-dark.svg) !important;
-  }
-}
-
 .intro__content--second {
   margin-left: 50% !important;
   max-width: 750px !important;
@@ -135,7 +125,7 @@ $bg: #2E3B49;
   background-color: #212E3D !important;
 }
 
-.btn__arrow-box {
+.btn__arrow-fourth {
   &:hover {
     .btn__arrow {
       background-color: $dark-blue !important;
